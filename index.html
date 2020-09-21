@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <title>Responsive</title>
+  </head>
+  <body>
+    <header>
+      <div class="container top">
+        <p class="logo">LOGO</p>
+
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+
+          <nav>
+            <ul class="nav">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">Serviços</a></li>
+              <li class="nav-item"><a href="#">Projetos</a></li>
+              <li class="nav-item"><a href="#">Sobre</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div class="hero container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p class="hero-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe,
+            harum veritatis! Neque repellat ullam, incidunt magni voluptate
+            voluptates odio suscipit distinctio, quibusdam excepturi fuga sed
+            illum a rerum! Officia, soluta?
+          </p>
+          <button class="btn more">Quero saber mais!</button>
+        </div>
+
+        <img class="hero-img" src="img/guitar_hero.png" alt="guitar_hero" />
+      </div>
+    </section>
+
+    <section id="cards" class="container">
+      <h2>Veja nossos produtos</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-cover" data-url="img/card_logo.png"></div>
+
+          <div class="card-content">
+            <h3 class="card-title">Info sobre alguma coisa</h3>
+            <p class="card-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto deserunt, laborum eligendi exercitationem natus odit
+            </p>
+          </div>
+
+          <div class="controller">
+            <span class="card-duration">60 min</span>
+            <button class="btn small">Mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="form">
+      <div class="container">
+        <h2>Entre em contato conosco</h2>
+        <div class="footer">
+          <form id="contact" class="form">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                name="name"
+                placeholder="Seu nome"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="name">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                name="email"
+                placeholder="Seu e-mail"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                placeholder="Digite sua mensagem aqui."
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+
+            <div class="form-group text-center">
+              <button class="btn send">Enviar Email</button>
+            </div>
+          </form>
+
+          <ul class="social">
+            <li>
+              <img class="social-logo" src="img/facebook.png" alt="facebook" />
+            </li>
+            <li>
+              <img class="social-logo" src="img/twitter.png" alt="twitter" />
+            </li>
+            <li>
+              <img
+                class="social-logo"
+                src="img/instagram.png"
+                alt="instagram"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
